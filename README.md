@@ -7,15 +7,13 @@ This is a [Homebrew][brew] tap for formulae for software developed by TempleEigh
 Setup
 -----
 
-Using these formulae requires Homebrew, which in turn requires Xcode. If you
+Using these formulae requires Homebrew, which in turn requires Xcode Command Line Tools. If you
 have not yet installed Homebrew, a quick summary is at the end of this
 document.
 
 Once homebrew is installed, simply run:
 
     brew tap templeeight/temple
-
-Some of these formulae may require OS X 10.10 (Yosemite) or higher.
 
 
 Use
@@ -28,15 +26,17 @@ formulae. For example, to install the latest version of Temple:
     brew update
     brew install temple
 
-or to install Temple from the latest HEAD commit:
-
-    brew install --HEAD temple
-
 To upgrade software:
 
     brew update
-    brew upgrade    # upgrade all software installed with Homebrew
-    brew upgrade temple   # update just temple
+
+To upgrade all software installed with Homebrew:
+
+    brew upgrade 
+
+To update just temple:
+
+    brew upgrade temple  
 
 
 Appendix: overview of installing Homebrew
@@ -65,5 +65,5 @@ References
 
 [brew]: http://brew.sh/
 [style]: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md
-[documentation]: https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme
+[documentation]: https://github.com/Homebrew/brew/blob/master/docs/README.md
 
