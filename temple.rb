@@ -2,16 +2,12 @@ class Temple < Formula
   desc "A Software Framework for automatically generating microservices from a high level DSL"
   version "0.001"
   homepage "https://templeeight.github.io/"
-  url "https://github.com/TempleEight/temple/releases/latest/download/temple-latest"
-  sha256 "a06237d4e674beec2258d1e2c80bf0c57ab4312e383e81f137879cfb09b00574"
+  url "https://github.com/TempleEight/temple/releases/download/v0.01/temple-latest"
+  sha256 "7b4c97734bdf7a2b0c45a499115e094e866830c427becaa60f777fb0cfe3dc1d"
 
 
   def install
     system "mv ./temple-latest temple"
     bin.install "./temple"
-  end
-
-  test do
-    system "false"
   end
 end
