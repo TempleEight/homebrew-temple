@@ -1,5 +1,5 @@
 class Temple < Formula
-  desc "A Software Framework for automatically generating microservices from a high level DSL"
+  desc "A framework for generating microservice infrastructure for platform-based systems"
   version "0.1.0"
   homepage "https://templeeight.github.io/temple-docs/"
   url "https://github.com/TempleEight/temple/releases/download/v0.1.0/temple-latest"
