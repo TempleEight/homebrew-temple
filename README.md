@@ -23,39 +23,13 @@ formulae. For example, to install the latest version of Temple:
     brew update
     brew install temple
 
-To update brew taps:
-
-    brew update
-
-To upgrade all software installed with Homebrew:
-
-    brew upgrade 
-
-To update just temple:
-
-    brew upgrade temple  
-
-
 ## Appendix: overview of installing Homebrew
 
 The Homebrew developers suggest installing Homebrew at `/usr/local` to maximize
 compatibility with existing software. To do so, follow the instructions on
 [their website][brew].
 
-This author prefers `/opt/homebrew`, finding that it works well enough in
-practice and keeps a cleaner separation between other software which might use
-`/usr/local`. To install at `/opt/homebrew`, you can use:
-
-    sudo mkdir /opt/homebrew
-    sudo chown `whoami` /opt/homebrew
-    curl -sSLf -o homebrew-installer https://raw.githubusercontent.com/Homebrew/install/master/install
-    perl -pi -e s,/usr/local,/opt/homebrew, homebrew-installer
-    ruby homebrew-installer
-    rm homebrew-installer
-    echo '$PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"' >> ~/.bashrc
-
-
-##References
+## References
 
 `brew help`, `man brew`, or the Homebrew [documentation][].
 
