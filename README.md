@@ -1,11 +1,9 @@
-TempleEight Homebrew Tap
-=====================
+# TempleEight Homebrew Tap
 
 This is a [Homebrew][brew] tap for formulae for software developed by TempleEight.
 
 
-Setup
------
+## Setup
 
 Using these formulae requires Homebrew, which in turn requires Xcode Command Line Tools. If you
 have not yet installed Homebrew, a quick summary is at the end of this
@@ -16,8 +14,7 @@ Once homebrew is installed, simply run:
     brew tap templeeight/temple
 
 
-Use
----
+## Use
 
 To install software, just use `brew install` with the name of the formula. You
 may wish to run `brew update` before hand to get the latest version of the
@@ -26,7 +23,7 @@ formulae. For example, to install the latest version of Temple:
     brew update
     brew install temple
 
-To upgrade software:
+To update brew taps:
 
     brew update
 
@@ -39,8 +36,7 @@ To update just temple:
     brew upgrade temple  
 
 
-Appendix: overview of installing Homebrew
------------------------------------------
+## Appendix: overview of installing Homebrew
 
 The Homebrew developers suggest installing Homebrew at `/usr/local` to maximize
 compatibility with existing software. To do so, follow the instructions on
@@ -59,8 +55,8 @@ practice and keeps a cleaner separation between other software which might use
     echo '$PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"' >> ~/.bashrc
 
 
-References
-----------
+##References
+
 `brew help`, `man brew`, or the Homebrew [documentation][].
 
 [brew]: http://brew.sh/
