@@ -1,9 +1,9 @@
 class Temple < Formula
   desc "A framework for generating microservice infrastructure for platform-based systems"
-  version "1.1.1"
+  version "1.1.2"
   homepage "https://templeeight.github.io/temple-docs/"
-  url "https://github.com/TempleEight/temple/releases/download/v1.1.1/temple-latest"
-  sha256 "1e63dfde9b9f83e36b63aab1bf1f23bb57ea7029e381d525103e1b4d61463df0"
+  url "https://github.com/TempleEight/temple/releases/download/v1.1.2/temple-latest"
+  sha256 "8d0ce2c384c7a502382fc7c53e647f457d051437be91638ff39abc2a6baa63cd"
 
 
   def install
